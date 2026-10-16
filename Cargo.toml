@@ -1,0 +1,17 @@
+[package]
+name = "emaki"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Official SDK for emaki (emaki.ai), the Japanese-language AI video generator for Seedance 2.5 and Seedance 2.0"
+license = "MIT"
+readme = "README.md"
+homepage = "https://emaki.ai/?utm_source=crates.io&utm_medium=package"
+repository = "https://github.com/hanshs474/emaki-rs"
+documentation = "https://docs.rs/emaki"
+keywords = ["seedance", "video-generation", "ai", "text-to-video", "image-to-video"]
+categories = ["api-bindings", "multimedia::video", "multimedia::images"]
+
+[dependencies]
+ureq = { version = "2", features = ["json"] }
+serde_json = "1"
